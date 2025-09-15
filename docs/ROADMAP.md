@@ -71,6 +71,11 @@ Ser a plataforma líder em faucets Web3, conectando usuários, desenvolvedores e
   - [ ] Análise de dados básica
   - [ ] Recomendações simples
   - [ ] Sistema de aprovação
+- [ ] **Blockchain FaucetChain** 🆕
+  - [ ] Consenso Proof of Claim (POC)
+  - [ ] Integração com Substrate
+  - [ ] Deploy no Rococo testnet
+  - [ ] Validação de claims on-chain
 
 #### Marcos Planejados
 

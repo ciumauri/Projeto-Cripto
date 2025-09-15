@@ -113,6 +113,7 @@ sequenceDiagram
 - **Mission System**: Missões diárias e semanais com recompensas
 - **External Integration**: Integração com faucets externos via API
 - **Anti-fraud**: Sistema avançado de detecção de fraudes
+- **Proof of Claim Consensus**: Consenso inovador baseado em claims válidos
 
 ### 🤖 AI Agent (FaucetAI)
 
@@ -193,6 +194,9 @@ sequenceDiagram
 - **Web3.js/Ethers.js**: Interação com blockchain
 - **WalletConnect**: Conexão com carteiras
 - **MetaMask Integration**: Integração com MetaMask
+- **Substrate Framework**: Framework para blockchain customizada
+- **Polkadot Integration**: Integração como parachain
+- **Proof of Claim Consensus**: Consenso inovador para faucets
 
 ### Desenvolvimento
 
@@ -469,6 +473,37 @@ const createPost = async (content: string) => {
   return response.json();
 };
 ```
+
+## 🌐 Integração Polkadot
+
+### Consenso Proof of Claim
+
+O FaucetChain implementa um consenso inovador chamado **Proof of Claim (POC)** que é otimizado especificamente para o ecossistema de faucets:
+
+- **Validação de Claims**: Validadores verificam claims de faucet
+- **Proof of Work**: Sistema de prova de trabalho para claims
+- **Staking de Validadores**: Validadores fazem stake para participar
+- **Cross-chain Bridge**: Integração com outras blockchains via Polkadot
+
+### Setup Rápido
+
+```bash
+# Executar setup automático
+./scripts/setup-polkadot.sh
+
+# Navegar para projeto blockchain
+cd ../faucetchain-blockchain
+
+# Build e deploy
+./build.sh
+./deploy-testnet.sh
+```
+
+### Documentação Completa
+
+- 📖 [Guia de Integração Polkadot](docs/POLKADOT_INTEGRATION.md)
+- 🚀 [Quick Start Polkadot](docs/QUICK_START_POLKADOT.md)
+- 🏗️ [Arquitetura Técnica](docs/ARCHITECTURE.md)
 
 ## 📚 API Reference
 
